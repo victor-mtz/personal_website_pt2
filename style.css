@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(38, 86, 83, 0.75);
+}
+
+.nav-bar {
+  background-color: rgba(42, 157, 143, 0.85);
+  color: rgba(233, 196, 106, 1);
+  display: flex;
+  align-items: center;
+  height: 50px;
+  box-shadow: 0 0 12px -2px rgb(233, 196, 106);
+}
+
+#my-name {
+  padding-left: 10px;
+  display: block;
+  padding-right: 10px;
+}
+
+div {
+  display: block;
+}
+
+a {
+  font-size: x-large;
+  margin: 0 10px;
+}
+
+.navigation {
+    text-align: right;
+    flex: 1;
+    padding-right: 5px;
+}
