@@ -24,6 +24,8 @@ div {
 a {
   font-size: x-large;
   margin: 0 10px;
+  text-decoration: none;
+  color: rgba(233, 196, 106, 1);
 }
 
 .navigation {
@@ -31,3 +33,74 @@ a {
     flex: 1;
     padding-right: 5px;
 }
+
+.active {
+  text-decoration: underline;
+}
+
+#me {
+  height:250px;
+  border-radius: 10px;
+}
+
+#my-image {
+  margin: 10px;
+}
+
+main {
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+#personal-summary {
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+
+footer {
+  position: absolute;
+  height: 150px;
+  bottom: 1%;
+  width: 98%;
+  background-color: rgba(42, 157, 143, 0.85);
+  box-shadow: 0 0 12px -2px rgb(233, 196, 106);
+  color: rgba(233, 196, 106, 1);
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#footer-anchor {
+  display: flex;
+}
+
+a:hover {
+  color: black;
+}
+
+#github {
+  flex: 1;
+  height: auto;
+  max-width: 100px;
+  width: 100%;
+  margin-left: 175px;
+}
+
+#linkedin {
+  flex: 1;
+  height: auto;
+  max-width: 100px;
+  width: 100%;
+  margin-left: 325px;
+}
+
+/* hr {
+  position:fixed;
+  bottom: 30%
+} */
