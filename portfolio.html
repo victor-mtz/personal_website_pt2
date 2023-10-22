@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Victor's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="./resources/man_u_favicon.ico" />
-</head>
-<body>
+    <script src="./javascript.js" async></script>
+  </head>
+  <body>
     <nav class="nav-bar">
-        <div id="my-name">
-          <h1>Victor Martinez</h1>
-        </div>
-        <div class="navigation" id="home">
-          <a href="./index.html">Home</a>
-          <a href="./about.html">About</a>
-          <a class="active" href="./portfolio.html">Portfolio</a>
-        </div>
-      </nav>
-</body>
+      <div id="my-name">
+        <h1>Victor Martinez</h1>
+      </div>
+      <div class="navigation" id="home">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a class="active" href="./portfolio.html">Portfolio</a>
+      </div>
+    </nav>
+    <div class="portfolio-images">
+      <img
+        id="weather-app-screenshot"
+        src="./resources/weather_app_screenshot.png"
+        alt="weather-app-screenshot"
+      />
+      <div id="surprise-btn">
+        <button id="click-me">Click Me!</button>
+      </div>
+    </div>
+    <hr>
+    <div class="portfolio-images">
+      <img
+        id="income-app-screenshot"
+        src="./resources/calculator_screenshot.png"
+        alt="calculator_screenshot"
+      />
+    </div>
+  </body>
+
+  <footer id="banner">
+    <div>
+      <a href="https://github.com/victor-mtz" id="footer-anchor">
+        <img src="./resources/github-mark.png" id="github" />
+      </a>
+    </div>
+    <div>
+      <a
+        href="https://www.linkedin.com/in/victor-martinez-74843318a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        id="footer-anchor"
+      >
+        <img src="./resources/LI-Logo.png" id="linkedin" />
+      </a>
+    </div>
+  </footer>
 </html>

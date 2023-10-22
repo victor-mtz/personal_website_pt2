@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All About Victor</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="./resources/man_u_favicon.ico" />
-</head>
-<body>
+  </head>
+  <body>
     <nav class="nav-bar">
-        <div id="my-name">
-          <h1>Victor Martinez</h1>
+      <div id="my-name">
+        <h1>Victor Martinez</h1>
+      </div>
+      <div class="navigation" id="home">
+        <a href="./index.html">Home</a>
+        <a class="active" href="./about.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+      </div>
+    </nav>
+    <main style="display: block;">
+      <div id="first-section">
+        <p class="about-me-paragraph">This is a super long paragraph that's actually pretty short</p>
+        <hr width="100%">
+      </div>
+      <div id="second-section">
+        <p class="about-me-paragraph" style="text-align: right; padding-right: 10px;">This is also a super long paragraph that's actually also pretty short</p>
+        <hr width="100%">
+      </div>
+      <div id="third-section">
+        <div id="first-section">
+          <p class="about-me-paragraph">The quick brown fox jumped over the lazy dog</p>
+          <hr width="100%">
         </div>
-        <div class="navigation" id="home">
-          <a href="./index.html">Home</a>
-          <a class="active" href="./about.html">About</a>
-          <a href="./portfolio.html">Portfolio</a>
-        </div>
-      </nav>
-    
-</body>
+      </div>
+    </main>
+  </body>
+
+  <footer id="banner">
+    <div>
+      <a href="https://github.com/victor-mtz" id="footer-anchor">
+        <img src="./resources/github-mark.png" id="github" />
+      </a>
+    </div>
+    <div>
+      <a
+        href="https://www.linkedin.com/in/victor-martinez-74843318a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        id="footer-anchor"
+      >
+        <img src="./resources/LI-Logo.png" id="linkedin" />
+      </a>
+    </div>
+  </footer>
 </html>

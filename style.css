@@ -67,7 +67,7 @@ footer {
   position: absolute;
   height: 150px;
   bottom: 1%;
-  width: 98%;
+  width: 99%;
   background-color: rgba(42, 157, 143, 0.85);
   box-shadow: 0 0 12px -2px rgb(233, 196, 106);
   color: rgba(233, 196, 106, 1);
@@ -97,10 +97,40 @@ a:hover {
   height: auto;
   max-width: 100px;
   width: 100%;
-  margin-left: 325px;
+  margin-left: 1000px;
 }
 
-/* hr {
-  position:fixed;
-  bottom: 30%
-} */
+#first-section {
+  width: full;
+}
+
+.about-me-paragraph {
+  font-size: large;
+  color:rgb(233, 196, 106);
+  padding-left: 15px;
+}
+
+.portfolio-images {
+  margin-left: 5px;
+  display: flex;
+}
+
+#weather-app-screenshot {
+  margin-top: 15px;
+  height: auto;
+  width: 100%;
+  max-width: 350px;
+}
+
+#income-app-screenshot {
+  margin-top: 15px;
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+#surprise-btn {
+  margin-left: 25%;
+  margin-top: 10%;
+}
