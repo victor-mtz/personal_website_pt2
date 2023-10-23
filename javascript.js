@@ -90,24 +90,18 @@ window.addEventListener('user-turn-ended', () => {
   const horizontalWin = checkHorizontal();
   const verticalWin = checkVertical();
   const gameOver = horizontalWin || verticalWin;
-  if (gameOver) {
+  let nodeList = [];
+  if (checkHorizontal() || checkVertical()) {
     alert('game over');
+  } else {
+    for (const nodes of individualCells) {
+      nodeList.push(nodes);
+    };
+      const firstEmptyCell = nodeList.find((node) => node.innerText == '');
+      tictactoeGrid[firstEmptyCell.dataset.i][firstEmptyCell.dataset.j] = o;
+      firstEmptyCell.innerText = o;
   }
-})
-
-// window.addEventListener('user-turn-ended', () => {
-//   console.log(`AI's turn now!`);
-//   for (let i = 0; i < rows.length; i++) {
-//     let columns = rows[i].children;
-//     grid.push(rows[i]);
-//     for (let j = 0; j < columns.length; j++) {
-//         if (columns[j].innerText == '') {
-//           // columns[j].innerText = 'O'
-//           rows[i].children[j] = 'O'
-//           console.log(rows[i].children[j]);
-//           // break;
-//         }
-//     }
-//     // break;
-//   }
-// });
+  if (checkHorizontal() || checkVertical()) {
+    alert('game over')
+  }
+});
