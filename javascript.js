@@ -1,6 +1,7 @@
 const button = document.getElementById("click-me");
 const tictactoeElement = document.getElementById("tic-tac-toe-grid");
 const restartBtn = document.getElementById("reset-grid");
+const submitBtn = document.getElementById('submit')
 
 const individualCells = document.querySelectorAll('div.col');
 
@@ -13,6 +14,11 @@ const userTurnEnded = new Event('user-turn-ended');
 const x = 'X';
 const o = 'O';
 
+if (submitBtn) {
+  submitBtn.addEventListener('click', () => {
+    alert('Button Clicked!')
+  })
+}
 
 if (button) {
   button.onclick = () =>

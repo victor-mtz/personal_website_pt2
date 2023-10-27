@@ -1,0 +1,166 @@
+body {
+  background-color: rgba(38, 86, 83, 0.75);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+}
+
+.nav-bar {
+  background-color: rgba(42, 157, 143, 0.85);
+  color: rgba(233, 196, 106, 1);
+  justify-content: space-between;
+  display: flex;
+  box-shadow: 0 0 12px -2px rgb(233, 196, 106);
+}
+
+.navigation {
+  display: flex;
+  padding-right: 10px;
+  font-size: x-large;
+  flex-wrap: wrap;
+  align-self: center;
+  gap: 10px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.nav-bar:nth-child(odd) {
+    color: rgb(255, 111, 0) !important;
+}
+
+#my-name {
+  padding-left: 10px;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: rgba(233, 196, 106, 1);
+}
+
+a:hover {
+  color: rgb(255, 111, 0);
+  text-decoration: underline;
+}
+
+#my-image {
+  margin: 10px;
+}
+
+#main-page-text {
+  margin: 10px;
+  justify-self: center;
+  align-self: center;
+}
+
+#personal-summary {
+  font-size: large;
+}
+
+footer {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  background-color: rgba(42, 157, 143, 0.85);
+  box-shadow: 0 0 12px -2px rgb(233, 196, 106);
+  color: rgba(233, 196, 106, 1);
+}
+
+#github {
+  height: auto;
+  max-width: 100px;
+}
+
+#footer-anchor {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkedin-img {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.linkedin-a {
+  align-content: flex-end;
+}
+
+#linkedin {
+  display: flex;
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+  align-content: flex-end;
+  padding-top: 25%;
+}
+
+.about-me-paragraph {
+  font-size: large;
+  color: rgb(233, 196, 106);
+  padding-left: 15px;
+}
+
+#weather-app-screenshot {
+  margin-top: 15px;
+  height: auto;
+  width: 100%;
+  max-width: 350px;
+}
+
+.images {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.portfolio-images {
+  margin-left: 20px;
+}
+
+#income-app-screenshot {
+  margin-top: 15px;
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+#surprise-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#click-me {
+    align-self: center;
+    justify-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: rgba(233, 196, 106, 1);
+  font-size: x-large;
+}
+
+input {
+  width: 500px;
+  background-color: rgba(42, 157, 143, 0.);
+}
+
+#comments {
+  height: 100px;
+}
+
+#submit {
+  width: 75px;
+}
